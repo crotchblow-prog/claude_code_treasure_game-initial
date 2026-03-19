@@ -31,7 +31,7 @@ export async function initDb(): Promise<void> {
     : mod.initSqlJs ?? mod.Module;
 
   const SQL = await initSqlJs({
-    locateFile: (_file: string) => '/sql-wasm.wasm',
+    locateFile: (_file: string) => `${import.meta.env.BASE_URL}sql-wasm.wasm`,
   });
 
   const saved = localStorage.getItem(DB_KEY);

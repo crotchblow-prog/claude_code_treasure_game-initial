@@ -5,7 +5,11 @@
       "Bash(npm install:*)",
       "Bash(npm run:*)",
       "Bash(npm --prefix /Users/chiaoe/projects/claude_code/claude_code_treasure_game-initial run dev)",
-      "Bash(xargs kill:*)"
+      "Bash(xargs kill:*)",
+      "Bash(gh api:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
